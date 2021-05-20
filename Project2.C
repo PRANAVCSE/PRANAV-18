@@ -1,4 +1,4 @@
-/ To find the area of a triangle given its sides as input using Heron's formula /
+// To find the area of a triangle given its sides as input using Heron's formula //
 #include<stdio.h>
 #include<math.h>
 int main()
