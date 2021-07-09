@@ -1,0 +1,19 @@
+// average of 3 integers
+#include<stdio.h>
+#include<math.h>
+float findingAvg(int a,int b,int c){
+    return (float)(a+b+c)/3;
+}
+int main(){
+    int a,b,c;
+    float avg;
+    printf("Enter first integer: ");
+    scanf("%d", &a);
+    printf("Enter second integer: ");
+    scanf("%d", &b);
+    printf("Enter third integer: ");
+    scanf("%d", &c);
+    avg = findingAvg(a,b,c);
+    printf("Average of %d and %d and %d is: %f",a,b,c,avg);
+    return 0;
+}
