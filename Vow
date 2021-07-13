@@ -1,0 +1,66 @@
+
+#include<stdio.h>
+int main(){
+  
+    char character;
+    
+    printf("\nEnter your character to check if it is a vowel or constant: ");
+    
+    scanf("%s", &character);
+    switch (character){
+        
+        case 'A':
+       
+            printf("\nThe character is a vowel");
+            break;
+
+        case 'E':
+      
+            printf("\nThe character is a vowel");
+            break;    
+      
+        case 'I':
+      
+            printf("\nThe character is a vowel");
+            break;  
+     
+        case 'O':
+       
+            printf("\nThe character is a vowel");
+            break;     
+     
+        case 'U':
+       
+            printf("\nThe character is a vowel");
+            break;  
+        
+        case 'a':
+       
+            printf("\nThe character is a vowel");
+            break;
+       
+        case 'e':
+      
+            printf("\nThe character is a vowel");
+            break;    
+       
+        case 'i':
+       
+            printf("\nThe character is a vowel");
+            break;  
+       
+        case 'o':
+        
+            printf("\nThe character is a vowel");
+            break;     
+        
+        case 'u':
+       
+            printf("\nThe character is a vowel");
+            break;     
+        default:
+       
+            printf("\n The character is a constant");   
+    }
+    return 0;
+}
